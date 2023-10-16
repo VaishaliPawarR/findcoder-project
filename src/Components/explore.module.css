@@ -1,0 +1,48 @@
+#homePage1{
+    height: 80vh;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+}
+#homePage1>nav{
+    height: 80%;
+    width: 80%;
+    /* background-color: black; */
+    display: flex;
+}
+
+#homePage1>nav>.text{
+    height: 100%;
+    width: 60%;
+    padding: 50px;
+    /* background-color: cadetblue; */
+}
+
+#homePage1>nav>.img{
+    height: 100%;
+    width: 40%;
+    /* background-color:peru;    */
+}
+
+#homePage1>nav>.text>h1{
+ font-size: 40px;  
+ color: rgb(75, 75, 75);
+}
+
+
+#homePage1>nav>.text>h2{
+    font-size: 40px; 
+    color: rgb(23,124,226); 
+}
+
+#homePage1>nav>.text>p{
+    font-size: 14px;
+    font-weight: 150;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homePage1>nav>.img>img{
+    height:100%;
+    width: 100%;
+}
